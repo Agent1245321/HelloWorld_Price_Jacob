@@ -11,14 +11,14 @@ namespace HelloWorld_Price_Jacob
             Console.WriteLine("Hey there user, whats your first name?");
 
             // this gets the input
-            string firstname = Console.ReadLine();
+            string firstName = Console.ReadLine();
 
             //repeated here
             Console.WriteLine("And your Last?");
             string lastName = Console.ReadLine();
 
             //prints out the greeting
-            Console.WriteLine(firstname + " " + lastName + "? nice to meet you!");
+            Console.WriteLine(firstName + " " + lastName + "? nice to meet you!");
 
             Console.WriteLine("Now lets do someting cool... we are going to play a game. I am thinking of a number between... lets say... -2147483648 and 2147483648 try to guess the number");
             string answer = Console.ReadLine();
